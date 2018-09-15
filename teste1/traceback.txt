@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 119, in script
+    e "Sério não precisa mais ler isso, você ja leu %(cont) vezes"
+ValueError: unsupported format character 'v' (0x76) at index 53
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 119, in script
+    e "Sério não precisa mais ler isso, você ja leu %(cont) vezes"
+  File "E:\ETEC\PDTCC\TCC\renpy-6.99.14.3-sdk\renpy-6.99.14.3-sdk\renpy\ast.py", line 652, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "E:\ETEC\PDTCC\TCC\renpy-6.99.14.3-sdk\renpy-6.99.14.3-sdk\renpy\exports.py", line 1169, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character 'v' (0x76) at index 53
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3.3347
+WE CAN SHOW YOU 0.01
+Mon Sep 10 13:56:35 2018

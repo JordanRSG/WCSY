@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 11: Line is indented, but the preceding image statement statement does not expect a block. Please check this line's indentation.
+    $ cont = 0
+    ^
+
+Ren'Py Version: Ren'Py 6.99.14.3.3347
+Mon Sep 10 13:55:21 2018
